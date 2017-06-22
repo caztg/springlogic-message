@@ -1,4 +1,4 @@
-package cn.springlogic.message.jpa.entity;
+package cn.springlogic.message.base.jpa.entity;
 
 import cn.springlogic.user.jpa.entity.User;
 import lombok.Data;
@@ -13,6 +13,7 @@ import java.util.List;
  */
 @Entity
 @Data
+@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 public class Message {
 
     @Id
@@ -21,6 +22,8 @@ public class Message {
 
     @Column(nullable = false)
     private Integer type;
+    @Column
+    private String title;
 
     @Column(nullable = false, columnDefinition = "TEXT")
     private String text;

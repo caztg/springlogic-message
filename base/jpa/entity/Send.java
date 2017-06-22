@@ -1,10 +1,12 @@
-package cn.springlogic.message.jpa.entity;
+package cn.springlogic.message.base.jpa.entity;
 
 import cn.springlogic.user.jpa.entity.User;
 import lombok.Data;
-import org.hibernate.annotations.CreationTimestamp;
+import org.hibernate.annotations.*;
+import org.hibernate.annotations.CascadeType;
 
 import javax.persistence.*;
+import javax.persistence.Entity;
 import java.util.Date;
 
 /**

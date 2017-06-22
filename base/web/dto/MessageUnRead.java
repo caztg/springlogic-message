@@ -1,4 +1,4 @@
-package cn.springlogic.message.web.dto;
+package cn.springlogic.message.base.web.dto;
 
 import lombok.Data;
 

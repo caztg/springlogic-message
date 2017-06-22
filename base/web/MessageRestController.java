@@ -1,9 +1,9 @@
-package cn.springlogic.message.web;
+package cn.springlogic.message.base.web;
 
-import cn.springlogic.message.jpa.entity.Message;
-import cn.springlogic.message.jpa.entity.Send;
-import cn.springlogic.message.jpa.repository.MessageRepository;
-import cn.springlogic.message.web.dto.MessageUnRead;
+import cn.springlogic.message.base.jpa.entity.Message;
+import cn.springlogic.message.base.jpa.entity.Send;
+import cn.springlogic.message.base.jpa.repository.MessageRepository;
+import cn.springlogic.message.base.web.dto.MessageUnRead;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageImpl;

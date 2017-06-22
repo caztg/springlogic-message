@@ -1,7 +1,7 @@
-package cn.springlogic.message.jpa.repository;
+package cn.springlogic.message.base.jpa.repository;
 
-import cn.springlogic.message.jpa.entity.Message;
-import cn.springlogic.message.jpa.entity.projection.MessageFullProjection;
+import cn.springlogic.message.base.jpa.entity.Message;
+import cn.springlogic.message.base.jpa.entity.projection.MessageFullProjection;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

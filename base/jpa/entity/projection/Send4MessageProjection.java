@@ -1,6 +1,6 @@
-package cn.springlogic.message.jpa.entity.projection;
+package cn.springlogic.message.base.jpa.entity.projection;
 
-import cn.springlogic.message.jpa.entity.Send;
+import cn.springlogic.message.base.jpa.entity.Send;
 import org.springframework.data.rest.core.config.Projection;
 
 import java.util.Date;

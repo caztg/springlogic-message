@@ -1,8 +1,7 @@
-package cn.springlogic.message.jpa.entity.projection;
+package cn.springlogic.message.base.jpa.entity.projection;
 
 import cn.springlogic.blog.jpa.entity.rest.UserProjection;
-import cn.springlogic.message.jpa.entity.Message;
-import cn.springlogic.user.jpa.entity.User;
+import cn.springlogic.message.base.jpa.entity.Message;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.rest.core.config.Projection;
 
@@ -19,6 +18,8 @@ public interface MessageFullProjection {
     Integer getType();
 
     String getText();
+
+    String getTitle();
 
     Date getCreateTime();
 
